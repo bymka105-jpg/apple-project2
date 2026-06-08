@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#header_big_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#header_mini_container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  align-items: center;
+  background-color: #f5f5f7cc;
+  position: sticky;
+}
+.header_text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 60px;
+  font-family: "Inter", sans-serif;
+}
+#title_dad {
+  width: 100%;
+  height: 52px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_title_text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+}
+/* hero secion1 start */
+#hero_secion1 {
+  background-image: url(./apple_picture/Background.png);
+  width: 100%;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+}
+#hero_secion2 {
+  background-image: url(./apple_picture/Figure.png);
+  width: 100%;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  background-size: cover;
+}
+#hero_secion1_title {
+  width: 405px;
+  height: 172px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero_secion1_text1 {
+  font-family: "Inter", sans-serif;
+  font: 600;
+  font-size: 52px;
+  line-height: 60px;
+  color: #f5f5f7;
+}
+.hero_secion1_text2 {
+  font-family: "Inter", sans-serif;
+  font: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f5f5f7;
+}
+.learn_more_box {
+  background-color: #0071e3;
+  border-radius: 9999px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn_more_text {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  width: 83px;
+  height: 20px;
+}
+
+.buy_box {
+  border: solid 1px #0071e3;
+  border-radius: 9999px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy_box:hover {
+  background-color: #0071e3;
+  color: white;
+}
+.buy_text {
+  color: #0071e3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+#learn_more_box_dad {
+  display: flex;
+  gap: 16px;
+}
+.learn_more_box2 {
+  background-color: #ffffff;
+  border-radius: 9999px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hero secion end */
