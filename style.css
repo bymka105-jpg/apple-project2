@@ -3,10 +3,16 @@
   padding: 0%;
   box-sizing: border-box;
 }
+.container13 {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
 #header_big_container {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  align-items: center;
 }
 #header_mini_container {
   display: flex;
@@ -17,6 +23,10 @@
   align-items: center;
   background-color: #f5f5f7cc;
   position: sticky;
+  top: 0;
+}
+#menu {
+  display: none;
 }
 .header_text {
   font-size: 12px;
@@ -41,7 +51,7 @@
 /* hero secion1 start */
 #hero_secion1 {
   background-image: url(./apple_picture/Background.png);
-  width: 100%;
+  width: 1920px;
   height: 692px;
   display: flex;
   justify-content: center;
@@ -49,7 +59,7 @@
 }
 #hero_secion2 {
   background-image: url(./apple_picture/Figure.png);
-  width: 100%;
+  width: 1920px;
   height: 692px;
   display: flex;
   justify-content: center;
@@ -110,6 +120,8 @@
 }
 .buy_box:hover {
   background-color: #0071e3;
+}
+.buy_box:hover p {
   color: white;
 }
 .buy_text {
@@ -123,6 +135,7 @@
 #learn_more_box_dad {
   display: flex;
   gap: 16px;
+  padding-top: 11px;
 }
 .learn_more_box2 {
   background-color: #ffffff;
@@ -160,7 +173,7 @@
 }
 #hero_secion3 {
   background-image: url(./apple_picture/apple.png);
-  width: 100%;
+  width: 1920px;
   height: 692px;
   background-size: cover;
   display: flex;
@@ -197,14 +210,249 @@
 #secion3_mini_container {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  padding-top: 446px;
   align-items: center;
   gap: 16px;
 }
 
 #frame13 {
-  background-image: url(./apple_picture/frame13png.png);
+  background-size: cover;
+  width: 1920px;
+  height: 1764px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+#ipad_air {
+  background-image: url(./apple_picture/ipad.png);
   background-size: cover;
   width: 942px;
   height: 580px;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+}
+#air_pod {
+  background-image: url(./apple_picture/air_pod.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#Watch {
+  background-image: url(./apple_picture/watch.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Watch_text_container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-top: 58px;
+}
+#Watch_text1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 100%;
+}
+#watch_text2 {
+  font-size: 15px;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  color: #000000;
+}
+#Watch_text2_dad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+#macboock {
+  background-image: url(./apple_picture/macboock.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#macboock_text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: 48px;
+}
+#macboock_text1 {
+  line-height: 44px;
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+#macboock_text2 {
+  line-height: 25px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+#trade {
+  background-image: url(./apple_picture/trade.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#trade_text_container {
+  display: flex;
+  gap: 7px;
+  padding-top: 58.42px;
+}
+#trade_text1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 100%;
+}
+#trade_text2 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  width: 322px;
+  height: 50px;
+  text-align: center;
+}
+#Get_box {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Get_text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+}
+#apple_card {
+  background-image: url(./apple_picture/apple_card.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#apply_box {
+  border: solid 1px #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 40px;
+}
+#apply_text {
+  color: #0071e3;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#ipad_text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 25px;
+}
+#ipad_text2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+#ipad_text2_dad {
+  padding-top: 315px;
+}
+#air_pod_text_dad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#air_pod_text1 {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  color: #f5f5f7;
+}
+#air_pod_text2 {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f5f5f7;
+}
+#air_pod_container {
+  padding-top: 401px;
+}
+#scroll_mini_container {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+#scroll1 {
+  background-image: url(./apple_picture/scroll1.png);
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+}
+#scroll2 {
+  background-image: url(./apple_picture/scroll2.png);
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+}
+#scroll3 {
+  background-image: url(./apple_picture/scroll3.png);
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
 }
