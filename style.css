@@ -133,4 +133,78 @@
   justify-content: center;
   align-items: center;
 }
-/* hero secion end */
+.learn_more_text2 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  width: 83px;
+  height: 20px;
+}
+.buy_box2 {
+  border: solid 1px #ffffff;
+  border-radius: 9999px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy_text2 {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+#hero_secion3 {
+  background-image: url(./apple_picture/apple.png);
+  width: 100%;
+  height: 692px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#hero_secion3_text1 {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 60px;
+}
+#hero_secion3_text2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#shop_box {
+  width: 114px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop_box_text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+#secion3_mini_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+#frame13 {
+  background-image: url(./apple_picture/frame13png.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+}
