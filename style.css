@@ -218,7 +218,6 @@
 #frame13 {
   background-size: cover;
   width: 1920px;
-  height: 1764px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -433,26 +432,116 @@
 #air_pod_container {
   padding-top: 401px;
 }
+#scroll_section {
+  padding-top: 12px;
+}
 #scroll_mini_container {
   display: flex;
   gap: 16px;
-  padding-top: 16px;
 }
 #scroll1 {
-  background-image: url(./apple_picture/scroll1.png);
+  background-image: url(./apple_picture/scroll_1.jpg);
   background-size: cover;
   width: 1250px;
   height: 668px;
 }
 #scroll2 {
-  background-image: url(./apple_picture/scroll2.png);
+  background-image: url(./apple_picture/scroll_2.jpg);
   background-size: cover;
   width: 1250px;
   height: 668px;
 }
 #scroll3 {
-  background-image: url(./apple_picture/scroll3.png);
+  background-image: url(./apple_picture/scroll_3.jpg);
   background-size: cover;
   width: 1250px;
   height: 668px;
+}
+#tab_container {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 12px;
+}
+.tab {
+  background-color: #0000006b;
+  color: #0000006b;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+#animation_section {
+  display: flex;
+  gap: 12px;
+  padding-top: 12px;
+}
+#animation_1 {
+  background-image: url(./apple_picture/animation_1.png);
+  width: 417px;
+  height: 236px;
+  padding-top: 198px;
+  padding-left: 15px;
+}
+#animation_1_text {
+  width: 223px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  line-height: 18px;
+}
+#animation_2 {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  padding-left: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#animation_2_img {
+  border-radius: 8px;
+  width: 196px;
+  height: 196px;
+}
+#rb_container {
+}
+#rb_text {
+  font-size: 14px;
+  font-weight: 600px;
+  line-height: 18px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+#music_text_container {
+  display: flex;
+  width: 58.8px;
+  height: 13.86px;
+  gap: 2px;
+  align-items: center;
+  padding-top: 150px;
+}
+#music_text {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+}
+#animation_3 {
+  background-image: url(./apple_picture/animation_3.jpg);
+  width: 417px;
+  height: 236px;
+}
+#animation_4 {
+  background-image: url(./apple_picture/animation_4.jpg);
+  width: 417px;
+  height: 236px;
+}
+#animation_5 {
+  background-color: #ebb799;
+  width: 417px;
+  height: 236px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.ani_img {
+  border-radius: 8px;
 }
