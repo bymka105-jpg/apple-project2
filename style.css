@@ -434,10 +434,17 @@
 }
 #scroll_section {
   padding-top: 12px;
+  width: 1920px;
+  margin: auto;
 }
 #scroll_mini_container {
   display: flex;
   gap: 16px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.item {
+  flex: 0 0 auto;
 }
 #scroll1 {
   background-image: url(./apple_picture/scroll_1.jpg);
@@ -503,8 +510,6 @@
   border-radius: 8px;
   width: 196px;
   height: 196px;
-}
-#rb_container {
 }
 #rb_text {
   font-size: 14px;
